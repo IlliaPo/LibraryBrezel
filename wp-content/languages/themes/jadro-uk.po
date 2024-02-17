@@ -1,0 +1,622 @@
+# Translation of Themes - Jadro in Ukrainian
+# This file is distributed under the same license as the Themes - Jadro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-04 14:02:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Jadro\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Jadro is a minimal and lightweight Full Site Editing theme. This speed optimized theme utilizes the WordPress blocks editor to create unique and eye-catching layouts. Jadro is perfect for blogs, small businesses, startups, law firms and other creative agencies who prefer simple and speed optimized websites."
+msgstr "Jadro - це мінімалістична і легка тема для повного редагування сайту. Ця оптимізована для швидкості тема використовує редактор блоків WordPress для створення унікальних і привабливих макетів. Jadro ідеально підходить для блогів, малого бізнесу, стартапів, юридичних фірм та інших креативних агентств, які віддають перевагу простим і оптимізованим для швидкості сайтам."
+
+#. Theme Name of the theme
+#: functions.php:71
+#, gp-priority: high
+msgid "Jadro"
+msgstr "Jadro"
+
+#: styles/kelly-green.json
+msgctxt "Style variation name"
+msgid "Kelly Green"
+msgstr "Яскравий зелено-жовтий"
+
+#: styles/hot-pink.json
+msgctxt "Style variation name"
+msgid "Hot Pink"
+msgstr "Теплий рожевий"
+
+#: styles/dodger-blue.json
+msgctxt "Style variation name"
+msgid "Dodger Blue"
+msgstr "Захисний синій"
+
+#: styles/coral.json
+msgctxt "Style variation name"
+msgid "Coral"
+msgstr "Кораловий"
+
+#: styles/black.json
+msgctxt "Style variation name"
+msgid "Black"
+msgstr "Чорний"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Підвал"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Заголовок"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "No Title and Space"
+msgstr "Без заголовка та пробілу"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X Large"
+msgstr "2XL"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Large"
+msgstr "XL"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr "Великий"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr "Середній"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr "Маленький"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Small"
+msgstr "XS"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X Small"
+msgstr "2XS"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Inherit"
+msgstr "Успадкувати"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Current Color"
+msgstr "Поточний колір"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Transparent"
+msgstr "Прозорий"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Senary"
+msgstr "Шестинний"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Quinary"
+msgstr "П'ятинний"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Quaternary"
+msgstr "Четвертинний"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Третинний"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Вторинний"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Початковий"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Базовий"
+
+#: theme.json styles/black.json styles/coral.json styles/dodger-blue.json
+#: styles/hot-pink.json styles/kelly-green.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Фон"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr "Outfit"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr "Figtree"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "4X Large"
+msgstr "4XL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3X Large"
+msgstr "3XL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr "2XL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr "XL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Великий"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Середній"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Base"
+msgstr "Базовий"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Маленький"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Small"
+msgstr "XS"
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Testimonials"
+msgstr "Відгуки та рекомендації"
+
+#: patterns/team-members.php
+msgctxt "Pattern title"
+msgid "Team Members"
+msgstr "Члени команди"
+
+#: patterns/pricing-table.php
+msgctxt "Pattern title"
+msgid "Pricing Table"
+msgstr "Прайс-лист"
+
+#: patterns/latest-articles.php
+msgctxt "Pattern title"
+msgid "Latest Articles"
+msgstr "Останні статті"
+
+#: patterns/hero-banner.php
+msgctxt "Pattern title"
+msgid "Hero Banner"
+msgstr "Вітальний банер"
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr "Заголовок"
+
+#: patterns/header-with-button.php
+msgctxt "Pattern title"
+msgid "Header with Button"
+msgstr "Заголовок з кнопкою"
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr "Підвал"
+
+#: patterns/features.php
+msgctxt "Pattern title"
+msgid "Features"
+msgstr "Функції"
+
+#: patterns/cta-two-columns.php
+msgctxt "Pattern title"
+msgid "Call to Action 2 Columns"
+msgstr "Заклик до дії на 2 колонки"
+
+#: patterns/cta-default.php
+msgctxt "Pattern title"
+msgid "Call to Action"
+msgstr "Заклик до дії"
+
+#: patterns/testimonials.php:116
+msgid "Useful features, pattern library &amp; regular updates."
+msgstr "Корисні функції, бібліотека шаблонів та регулярні оновлення."
+
+#: patterns/testimonials.php:110
+msgid "Corporate Lawyer"
+msgstr "Корпоративний юрист"
+
+#: patterns/testimonials.php:80
+msgid "Public Speaker"
+msgstr "Промовець"
+
+#: patterns/testimonials.php:50
+msgid "Life Coach"
+msgstr "Життєвий тренер"
+
+#: patterns/testimonials.php:27
+msgid "A range of testimonials from our happy customers across a variety of industries and use cases."
+msgstr "Ряд відгуків від наших щасливих клієнтів з різних галузей і сфер використання."
+
+#: patterns/testimonials.php:21
+msgid "Testimonials"
+msgstr "Відгуки та рекомендації"
+
+#: patterns/testimonials.php:17
+msgid "Customer Reviews"
+msgstr "Відгуки клієнтів"
+
+#: patterns/team-members.php:78
+msgid "Consultant"
+msgstr "Консультант"
+
+#: patterns/team-members.php:74 patterns/testimonials.php:106
+msgid "Dina Crossin"
+msgstr "Dina Crossin"
+
+#: patterns/team-members.php:62
+msgid "Manager"
+msgstr "Менеджер"
+
+#: patterns/team-members.php:58 patterns/testimonials.php:76
+msgid "Danial Chen"
+msgstr "Danial Chen"
+
+#: patterns/team-members.php:46
+msgid "Director"
+msgstr "Директор"
+
+#: patterns/team-members.php:42 patterns/testimonials.php:46
+msgid "Eliza Weber"
+msgstr "Eliza Weber"
+
+#: patterns/team-members.php:27
+msgid "An experienced team working together, crafting exceptional experiences, and growing stronger."
+msgstr "Досвідчена команда, яка працює разом, створює винятковий досвід і стає сильнішою."
+
+#: patterns/team-members.php:21
+msgid "Team Members"
+msgstr "Члени команди"
+
+#: patterns/team-members.php:17
+msgid "Creative"
+msgstr "Творчий"
+
+#: patterns/pricing-table.php:197
+msgid "Onpage SEO Included"
+msgstr "Включно із SEO на сторінці"
+
+#: patterns/pricing-table.php:189
+msgid "Website Security Hardening"
+msgstr "Зміцнення безпеки вебсайту"
+
+#: patterns/pricing-table.php:181
+msgid "Monthly Maintenance Service"
+msgstr "Щомісячне технічне обслуговування"
+
+#: patterns/pricing-table.php:173
+msgid "Everything in Advanced"
+msgstr "Усе в розширеній версії"
+
+#: patterns/pricing-table.php:159
+msgid "$499"
+msgstr "$499"
+
+#: patterns/pricing-table.php:154
+msgid "Premium"
+msgstr "Преміум"
+
+#: patterns/pricing-table.php:139
+msgid "Support via Dedicated Email"
+msgstr "Підтримка через спеціальну електронну пошту"
+
+#: patterns/pricing-table.php:131
+msgid "Additional Block Patterns"
+msgstr "Додаткові шаблони блоків"
+
+#: patterns/pricing-table.php:123
+msgid "One Click Demo Import"
+msgstr "Демо-імпорт в один клік"
+
+#: patterns/pricing-table.php:115
+msgid "Everything in Basic"
+msgstr "Усе в базовій версії"
+
+#: patterns/pricing-table.php:101
+msgid "$99"
+msgstr "$99"
+
+#: patterns/pricing-table.php:96
+msgid "Advanced"
+msgstr "Додатково"
+
+#: patterns/pricing-table.php:81
+msgid "Support via Public Forum"
+msgstr "Підтримка через публічний форум"
+
+#: patterns/pricing-table.php:73
+msgid "Block Pattern Library"
+msgstr "Бібліотека шаблонів блоків"
+
+#: patterns/pricing-table.php:57
+msgid "Responsive Layouts"
+msgstr "Адаптивна розмітка"
+
+#: patterns/pricing-table.php:47 patterns/pricing-table.php:105
+#: patterns/pricing-table.php:163
+msgid "/year"
+msgstr "/рік"
+
+#: patterns/pricing-table.php:43
+msgid "$49"
+msgstr "$49"
+
+#: patterns/pricing-table.php:38
+msgid "Basic"
+msgstr "Базовий"
+
+#: patterns/pricing-table.php:27
+msgid "We offer a range of plans to suit businesses of all sizes, from small startups to large corporations."
+msgstr "Ми пропонуємо широкий вибір планів, щоб задовольнити бізнес будь-якого розміру, від маленьких стартапів до великих корпорацій."
+
+#: patterns/pricing-table.php:21
+msgid "Pricing Plans"
+msgstr "Тарифні плани"
+
+#: patterns/pricing-table.php:17
+msgid "Straightforward"
+msgstr "Просто"
+
+#: patterns/latest-articles.php:27
+msgid "Quickly browse the latest offers, read in-depth articles, and case studies to get the full story."
+msgstr "Швидко переглядайте останні пропозиції, читайте докладні статті та тематичні дослідження, щоб отримати повну інформацію."
+
+#: patterns/latest-articles.php:21
+msgid "Latest Articles"
+msgstr "Останні статті"
+
+#: patterns/latest-articles.php:17
+msgid "Stay Updated"
+msgstr "Будьте в курсі"
+
+#: patterns/hero-banner.php:26
+msgid "Simple, Clean, and Lightning Fast Full Site Editing Theme. Google Core Web Vitals and Search Engines optimized WordPress block theme."
+msgstr "Проста, чиста та блискавична тема для повного редагування сайту. Оптимізована під основні веб-показники Google та пошукові системи тема для блоків WordPress."
+
+#: patterns/hero-banner.php:22
+msgid "WordPress Block Theme"
+msgstr "Тема для блоків WordPress"
+
+#. translators: %s: Copyright text.
+#: patterns/footer.php:104
+msgid "Copyright © %s. All Rights Reserved."
+msgstr "Авторські права © %s. Усі права захищені."
+
+#: patterns/footer.php:67
+msgid "Terms &amp; Conditions"
+msgstr "Правила та умови"
+
+#: patterns/footer.php:63
+msgid "Privacy Policies"
+msgstr "Політика конфіденційності"
+
+#: patterns/footer.php:59
+msgid "Get Involved"
+msgstr "Долучайтеся"
+
+#: patterns/footer.php:55
+msgid "Showcase"
+msgstr "Демонстрація"
+
+#: patterns/footer.php:51
+msgid "Affiliate"
+msgstr "Партнер"
+
+#: patterns/footer.php:46
+msgid "Quick Links"
+msgstr "Швидкі посилання"
+
+#: patterns/footer.php:39
+msgid "Customization Request"
+msgstr "Запит на налаштування"
+
+#: patterns/footer.php:35
+msgid "Support Forum"
+msgstr "Форум підтримки"
+
+#: patterns/footer.php:31
+msgid "Help Center"
+msgstr "Центр допомоги"
+
+#: patterns/footer.php:27
+msgid "Success Stories"
+msgstr "Історії успіху"
+
+#: patterns/footer.php:23 patterns/footer.php:76
+msgid "About"
+msgstr "Про нас"
+
+#: patterns/footer.php:18
+msgid "Company"
+msgstr "Компанія"
+
+#: patterns/features.php:78
+msgid "Select the color of your choice from the variations available."
+msgstr "Виберіть колір на свій смак з доступних варіантів."
+
+#: patterns/features.php:74
+msgid "Color Variations"
+msgstr "Варіанти кольору"
+
+#: patterns/features.php:60 patterns/testimonials.php:86
+msgid "Lightning fast theme that loads in fractions of seconds."
+msgstr "Блискавично швидка тема, яка завантажується за секунди."
+
+#: patterns/features.php:56
+msgid "Speed Optimized"
+msgstr "Швидкість оптимізовано"
+
+#: patterns/features.php:47 patterns/features.php:65 patterns/features.php:83
+msgid "Read More"
+msgstr "Читати далі"
+
+#: patterns/features.php:42 patterns/testimonials.php:56
+msgid "Simple, clean &amp; minimal Full Site Editing theme."
+msgstr "Проста, чиста та мінімалістична тема для повного редагування сайту."
+
+#: patterns/features.php:38 patterns/hero-banner.php:18
+#: patterns/pricing-table.php:65
+msgid "Full Site Editing"
+msgstr "Повне редагування сайту"
+
+#: patterns/features.php:27
+msgid "Create stunning websites effortlessly with a collection of inbuilt patterns and style variations."
+msgstr "Створюйте надзвичайні сайти без зусиль за допомогою колекції вбудованих шаблонів та варіантів стилів."
+
+#: patterns/features.php:21
+msgid "Features"
+msgstr "Функції"
+
+#: patterns/features.php:17
+msgid "Innovative"
+msgstr "Інноваційна"
+
+#: patterns/cta-two-columns.php:36
+msgid "Get In Touch"
+msgstr "Зв'язатися"
+
+#: patterns/cta-two-columns.php:31
+msgid "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+msgstr "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+#: patterns/cta-two-columns.php:27
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+#: patterns/cta-two-columns.php:21
+msgid "Add Your Heading Here"
+msgstr "Додайте заголовок сюди"
+
+#: patterns/cta-two-columns.php:17
+msgid "Call to Action"
+msgstr "Заклик до дії"
+
+#: patterns/cta-default.php:34 patterns/hero-banner.php:35
+msgid "Learn More"
+msgstr "Дізнатися більше"
+
+#: patterns/cta-default.php:30 patterns/header-with-button.php:32
+#: patterns/hero-banner.php:31 patterns/pricing-table.php:87
+#: patterns/pricing-table.php:145 patterns/pricing-table.php:203
+msgid "Get Started"
+msgstr "Початок роботи"
+
+#: patterns/cta-default.php:25 patterns/footer.php:80
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#: patterns/cta-default.php:15
+msgid "Add Call to Action Heading Here"
+msgstr "Додайте заголовок заклику до дії сюди"
+
+#: functions.php:95
+msgid "Right Aligned"
+msgstr "Вирівняно по правому краю"
+
+#: functions.php:94
+msgid "Left Aligned"
+msgstr "Вирівняно по лівому краю"
+
+#: functions.php:93
+msgid "Wide Thin Line"
+msgstr "Широка тонка лінія"
+
+#: functions.php:92
+msgid "Dotted"
+msgstr "Пунктирна"
+
+#: functions.php:89
+msgid "None"
+msgstr "Жодної"
+
+#: functions.php:88
+msgid "Square"
+msgstr "Квадрат"
+
+#: functions.php:87
+msgid "Checklist Circle"
+msgstr "Галочка в списку"
+
+#: functions.php:86
+msgid "Checklist"
+msgstr "Список"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Jadro WP"
+msgstr "Jadro WP"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://jadrowp.com/"
+msgstr "https://jadrowp.com/"
