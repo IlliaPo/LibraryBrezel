@@ -1,12 +1,3 @@
-# Duplicator config, In case of file downloading problem, you can disable/enable it at Duplicator > Settings > Storage > Apache .htaccess
-
-Options -Indexes
-<Files *.php>
-    deny from all
-</Files>
-<IfModule mod_headers.c>
-    <FilesMatch "\.(daf)$">
-        ForceType application/octet-stream
-        Header set Content-Disposition attachment
-    </FilesMatch>
-</IfModule>
+version https://git-lfs.github.com/spec/v1
+oid sha256:311eff18a5b057fecb992467ce3e03fb7b05fca5447884e71d9ad0f143681f20
+size 372

@@ -1,0 +1,2 @@
+wp-content/backups-dup-lite/* filter=lfs diff=lfs merge=lfs -text
+c:/OSPanel/domains/brezel.college.ks.ua/* filter=lfs diff=lfs merge=lfs -text
