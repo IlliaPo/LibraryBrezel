@@ -272,4 +272,15 @@ if ( ! function_exists( 'wp_body_open' ) ) {
     function wp_body_open() {
         do_action( 'wp_body_open' );
     }
+add_action( 'pre_get_posts', 'sort_archive_by_ratings' );
+function sort_archive_by_ratings( $query ) {
+    if( is_admin() || ! $query->is_main_query() )
+        return;
+
+    if( $query->is_archive() ) {
+        $query->set( 'meta_key', 'ratings_average' );
+        $query->set( 'orderby', 'meta_value_num' );
+        $query->set( 'order', 'DESC' );
+    }
+}
 }
